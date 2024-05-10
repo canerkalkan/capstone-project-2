@@ -1,0 +1,37 @@
+body {
+  background: linear-gradient(300deg,   #00bfff, #4cfff6, #93d85b);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+  
+ 
+ 
+  
+
+.purple-purse-regular {
+  font-family: "Purple Purse", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+  
+
+  .profile-img {
+    border-radius: 50%;
+    height: 250px;
+    width:  200px; 
+  }
